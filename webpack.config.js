@@ -9,17 +9,17 @@ const devMode = process.env.NODE_ENV !== 'production';
 
 const apiRoot = function (env) {
   if (env === 'production') {
-    return 'https://mixin-api.zeromesh.net';
+    return 'https://api.mixin.zone';
   } else {
-    return 'https://mixin-api.zeromesh.net';
+    return 'https://api.mixin.zone';
   }
 };
 
 const blazeRoot = function (env) {
   if (env === 'production') {
-    return 'wss://mixin-blaze.zeromesh.net';
+    return 'wss://blaze.mixin.zone';
   } else {
-    return 'wss://mixin-blaze.zeromesh.net';
+    return 'wss://blaze.mixin.zone';
   }
 };
 
